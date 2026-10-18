@@ -8,14 +8,14 @@ venue: "Gallery Kkotnuri, Bupyeong Art Center"
 location: "Incheon"
 collaborators: ["Cha Minyoung (choreographer)", "Choi Kyungwon (artist)"]
 cover: ./blues-blues/cover.jpg
-coverCaption: "Blue's Blues, installation view (placeholder)"
+coverCaption: "Blue's Blues, performance by choreographer Cha Minyoung among Choi Kyungwon's textile works, Gallery Kkotnuri, 2023."
 summary: "A collaboration between a choreographer and a visual artist that layers the blue of the sea over the blue of denim to make the ecological cost of fast fashion felt through the body."
 featured: true
 ---
 
 Blue's Blues was selected through the 3rd Bupyeong Emerging Curator open call organized by the Bupyeong-gu Foundation for Culture, with support worth approximately 25 million KRW. I planned and ran the exhibition as its overall curator, in collaboration between choreographer Cha Minyoung and artist Choi Kyungwon.
 
-![Installation view (placeholder)](./blues-blues/view-1.jpg)
+![Installation view: suspended dyed fabrics and yarn, with soft sculptures on the floor.](./blues-blues/view-1.jpg)
 
 ## Curatorial statement
 
@@ -25,7 +25,7 @@ We judged that a strategy of overlapping the blue of the sea with the blue of je
 
 Completed through the collaboration of choreographer Cha Minyoung and artist Choi Kyungwon, the exhibition 《Blue's Blues》 conveys the ecological problems caused by clothing culture to the viewer's skin, through the waves produced by the moving body and the still body, the outer skin and the interior of the body, and the future and the traces of the body.
 
-![Installation view (placeholder)](./blues-blues/view-2.jpg)
+![Two-channel video projection of the performance filmed outdoors.](./blues-blues/view-2.jpg)
 
 ## 기획의 글
 
