@@ -39,4 +39,4 @@ I carried out the computational text and temporal analysis for the chapter as a 
 
 ## Source
 
-Kim et al. (2024). Chapter 4: Medical AI in South Korea and the expansion of medical labor. In *Advances in artificial intelligence and the changing meaning of work in the future* [Policy report, in Korean]. Korea Information Society Development Institute (KISDI). https://library.kisdi.re.kr/$/10230/contents/3934580
+김란우, 전준, 김태균, 한묘경, 박두진, 임영택, & 정광혁 [Kim, L., Jeon, J., Kim, T., Han, M., Park, D., Lim, Y., & Jung, K.]. (2024). Chapter 4: 대한민국 의료 AI와 의료노동의 확장 [Medical AI in South Korea and the expansion of medical labor]. In *인공지능의 진전과 미래 일의 의미 변화에 따른 대응 방안* [Advances in artificial intelligence and the changing meaning of work in the future] (Digital Transformation Megatrends Research IV, pp. 1–184). Korea Information Society Development Institute (KISDI). https://library.kisdi.re.kr/$/10230/contents/3934580

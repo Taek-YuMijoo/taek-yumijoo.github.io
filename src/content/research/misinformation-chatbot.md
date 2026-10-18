@@ -42,4 +42,4 @@ I built the chatbot and its task-specific system prompts, ran the deployment to 
 
 ## Source
 
-Korea Press Foundation. (n.d.). 생성형 AI 활용 격차와 AI 리터러시 [Gaps in generative AI use and AI literacy] (Chapter 5, AI 리터러시 관찰 조사 [Observational survey of AI literacy], pp. 128–180). Korea Press Foundation. (Authors and publication year are not printed on these pages.)
+양소은, 최석영, & 김병준 [Yang, S., Choi, S., & Kim, B.]. (2025). *생성형 AI 활용 격차와 AI 리터러시* [Gaps in generative AI use and AI literacy] (Chapter 5, AI 리터러시 관찰 조사 [Observational survey of AI literacy], pp. 128–180). Korea Press Foundation.
