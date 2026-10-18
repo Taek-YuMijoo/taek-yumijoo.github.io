@@ -2,12 +2,10 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export const site = {
   name: 'Yeongtaek Lim',
-  nameKo: '임영택',
   email: 'yeongtaek1337@gmail.com',
   city: 'Seoul',
   statement:
     'Computational social scientist, curator and critic. I study how platforms, data and work reorganise social life — in research, in exhibitions, and in writing.',
-  statementKo: '계산사회과학 연구자, 전시기획자, 비평가.',
   updated: 'Oct 2026',
 };
 
@@ -16,27 +14,23 @@ export type SectionKey = 'research' | 'curatorial' | 'criticism';
 export const sections: {
   key: SectionKey;
   label: string;
-  labelKo: string;
   intro: string;
 }[] = [
   {
     key: 'research',
     label: 'Research',
-    labelKo: '연구',
     intro:
       'Computational social science on online conflict, occupational discourse and the social impacts of generative AI. Text analysis, network analysis, LLM pipelines and interviews.',
   },
   {
     key: 'curatorial',
     label: 'Curatorial',
-    labelKo: '기획',
     intro:
       'Four exhibitions since 2022, each selected through an open call. They take the material basis of the digital — servers, dyes, population data, platform metrics — and put it in a room.',
   },
   {
     key: 'criticism',
     label: 'Criticism',
-    labelKo: '비평',
     intro:
       'Art criticism and columns written in Korean for Art in Culture, PONG, Critic-al and Karts News, plus invited talks. English abstracts; original texts linked where available.',
   },

@@ -1,11 +1,10 @@
 ---
 title: "The Shape of Taste"
-titleKo: "맛의 모습"
 type: "Column series"
 role: "Columnist and photographer"
 date: 2022-12-01
 dateLabel: "Mar – Dec 2022"
-venue: "Karts News (한국예술종합학교신문)"
+venue: "Karts News"
 location: "Seoul"
 links: []
 cover: ./shape-of-taste/cover.jpg

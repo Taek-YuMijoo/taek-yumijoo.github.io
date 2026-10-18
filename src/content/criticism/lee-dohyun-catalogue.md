@@ -1,6 +1,5 @@
 ---
 title: "Catalogue essay for Lee Dohyun's solo exhibition"
-titleKo: "이도현 개인전 도록 비평"
 type: "Catalogue essay"
 role: "Critic and photographer"
 date: 2025-01-01
@@ -12,4 +11,4 @@ coverCaption: "Published page"
 summary: "Critical essay for the catalogue of artist Lee Dohyun's solo exhibition, written on commission from the artist."
 ---
 
-This essay was commissioned by the artist Lee Dohyun (이도현) and published in the catalogue of his solo exhibition. The author contributed the critical text and also worked as photographer.
+This essay was commissioned by the artist Lee Dohyun and published in the catalogue of his solo exhibition. The author contributed the critical text and also worked as photographer.

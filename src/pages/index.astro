@@ -40,7 +40,6 @@ const span = `${Math.min(...years)}–${Math.max(...years)}`;
             <td class="y">{y !== prev ? y : ''}</td>
             <td class="t">
               <a href={href(`/${section}/${entry.id}/`)}>{d.title}</a>
-              {d.titleKo && <span class="ko">{d.titleKo}</span>}
             </td>
             <td class="s">{sectionByKey[section].label}</td>
             <td class="k">{d.type}</td>

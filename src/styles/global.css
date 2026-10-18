@@ -8,7 +8,7 @@
   --accent: #1c2fb0;        /* cobalt — from the Blue's Blues identity */
   --accent-wash: rgba(28, 47, 176, 0.07);
 
-  --serif: 'Newsreader', 'Noto Serif KR', 'Apple SD Gothic Neo', Georgia, 'Times New Roman', serif;
+  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
 
   --fs-xs: 0.75rem;   /* 12 */
   --fs-s: 0.84rem;    /* 13.5 */

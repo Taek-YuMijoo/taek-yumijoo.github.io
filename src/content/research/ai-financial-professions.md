@@ -35,4 +35,4 @@ My role was research assistant in the Computational Analysis of Technology and S
 
 ## Source
 
-노세리, 권현지, 김란우, 박은연, 이환웅, 전준, & 노가빈 [Noh, S., Kwon, H., Kim, R., Park, E., Lee, H., Jeon, J., & Noh, G.]. (2025). 금융업에서 AI 활용과 노동과정의 변화: 인간-AI 협업과 새로운 불평등 [AI use in finance and changes in the labor process: Human–AI collaboration and new inequalities]. In *AI와 노동의 공존: 생산성 향상과 불평등 개선 가능성을 중심으로* [The coexistence of AI and labor: Focusing on productivity gains and the possibility of reducing inequality] (Chapter 6, pp. 167–193). Korea Labor Institute. ISBN 979-11-260-0842-1.
+Noh, S., Kwon, H., Kim, R., Park, E., Lee, H., Jeon, J., & Noh, G. (2025). AI use in finance and changes in the labor process: Human–AI collaboration and new inequalities. In *The coexistence of AI and labor: Focusing on productivity gains and the possibility of reducing inequality* (Chapter 6, pp. 167–193). Korea Labor Institute. ISBN 979-11-260-0842-1. In Korean.

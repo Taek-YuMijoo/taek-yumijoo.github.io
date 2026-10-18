@@ -1,6 +1,5 @@
 ---
 title: "For Invisible Data"
-titleKo: "보이지 않는 데이터를 위하여"
 type: "Invited talk"
 role: "Speaker"
 date: 2025-07-01

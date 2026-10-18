@@ -39,4 +39,4 @@ Dr. Lee presented the project as Presentation 3 in the session "Social Challenge
 
 ## Source
 
-Lee, Hyunkyung. 2024. "숙련가치사슬 기반 AI Skill 수요 분석: 국내 인공지능 온라인 구인 공고 분석을 중심으로" (AI skill demand analysis based on the skill value chain: focusing on online job postings for AI in Korea). Presentation 3, in *노동친화적 인공지능의 가치와 사회적 과제* (Values and Social Challenges of Labor-Friendly AI), 2024 ICT기반 사회현안 해결방안 연구 심포지엄 (2024 Research Symposium on ICT-Based Solutions to Social Issues), Korea Information Society Development Institute, pp. 72–93. Figures are slides from this presentation.
+Lee, H. (2024). AI skill demand analysis based on the skill value chain: Focusing on online job postings for AI in Korea. Presentation 3 in *Values and social challenges of labor-friendly AI*, 2024 Research Symposium on ICT-Based Solutions to Social Issues (pp. 72–93). Korea Information Society Development Institute (KISDI). In Korean. Figures are slides from this presentation.

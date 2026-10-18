@@ -1,6 +1,5 @@
 ---
 title: "Exhibition review for OK GO"
-titleKo: "OK GO 전시 비평"
 type: "Catalogue essay"
 role: "Critic"
 date: 2016-12-01
@@ -12,4 +11,4 @@ coverCaption: "Published page"
 summary: "Exhibition review in the catalogue of OK GO, a project of the Center for Convergent Arts Art Collider, where the author was selected as a critic."
 ---
 
-OK GO was a project run by Art Collider, the Center for Convergent Arts (융합예술센터). The author was selected as one of the project's critic-writers and published an exhibition review in its catalogue.
+OK GO was a project run by Art Collider, the Center for Convergent Arts. The author was selected as one of the project's critic-writers and published an exhibition review in its catalogue.

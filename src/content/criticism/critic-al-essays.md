@@ -1,6 +1,5 @@
 ---
 title: "Two essays on visual culture"
-titleKo: "시각문화 비평 2편"
 type: "Essay"
 role: "Critic"
 date: 2024-06-01

@@ -1,6 +1,5 @@
 ---
 title: "The Ambivalence within 'Equalism' Discourse"
-titleKo: "'이퀄리즘' 담론의 양가성 분석"
 type: "Poster presentation"
 role: "First author"
 date: 2025-07-01
@@ -17,7 +16,7 @@ links:
     url: "https://mold-on-word.github.io/seesaw/"
 ---
 
-"Equalism" (이퀄리즘) started circulating in Korean online communities around 2016, when a user wrote a Namuwiki entry presenting it as a serious school of thought, supported by captioned lecture images that did not contain the word. Major news outlets reported in early 2017 that the concept had been made up, and Namuwiki renamed the entry a fabrication incident. Yet in January 2024 a cable survival show still set "feminism" against "equalism" as opposing positions. The project asks what the word is actually used for once its basis has been exposed.
+"Equalism" started circulating in Korean online communities around 2016, when a user wrote a Namuwiki entry presenting it as a serious school of thought, supported by captioned lecture images that did not contain the word. Major news outlets reported in early 2017 that the concept had been made up, and Namuwiki renamed the entry a fabrication incident. Yet in January 2024 a cable survival show still set "feminism" against "equalism" as opposing positions. The project asks what the word is actually used for once its basis has been exposed.
 
 The data come from DCinside, a large Korean community site. The team searched all galleries for six spellings and variants of "equalism" and "equalist", then manually removed audio-equalizer posts. This gave 2,339 posts and 8,576 comments with metadata such as date, upvotes and views. Posts per year were 496 (2017), 551 (2018), 207, 203, 371 (2021), 220, 99 (2023) and 192 (2024, collected in mid-year). Because DCinside comments are often unrelated to the post and resemble posts in length, each post and each comment was treated as a separate document.
 

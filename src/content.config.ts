@@ -5,7 +5,6 @@ import { glob } from 'astro/loaders';
 const workSchema = ({ image }: { image: () => z.ZodTypeAny }) =>
   z.object({
     title: z.string(),
-    titleKo: z.string().optional(),
     type: z.string(),            // Exhibition, Thesis, Report, Presentation, Pipeline, Article, Talk, Column…
     role: z.string(),            // Curator, Researcher, Critic, Research Assistant…
     date: z.coerce.date(),       // used for sorting
