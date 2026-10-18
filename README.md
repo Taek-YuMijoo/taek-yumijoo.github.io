@@ -45,6 +45,6 @@ npm run dev
 
 Pushing to `main` on GitHub runs `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages. In the repository settings, set Pages → Source to "GitHub Actions" once.
 
-- Repo named `<user>.github.io` → site is served at the root; `astro.config.mjs` needs no `base`.
+- Repo named `taek-yumijoo.github.io` → site is served at the root; `astro.config.mjs` needs no `base`.
 - Any other repo name → add `base: '/<repo-name>'` to `astro.config.mjs`.
 - Custom domain → set `site` in `astro.config.mjs` and add the domain in Pages settings.
