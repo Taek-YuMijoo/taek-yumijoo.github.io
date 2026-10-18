@@ -15,5 +15,3 @@ featured: true
 The author was invited as a critic to speak at the seminar associated with the Daejeon Science Art Biennale, held at the Daejeon Museum of Art in July 2025. The talk was given in Korean.
 
 The talk sits at the intersection of the author's computational research and art criticism. Its subject is data that is not seen, and it touches on platforms and labor.
-
-*Placeholder — to be replaced with an abstract and a link or PDF of the published text.*

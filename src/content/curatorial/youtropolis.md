@@ -8,7 +8,7 @@ dateLabel: "Sep 2026"
 venue: "KAIST Museum"
 location: "Daejeon"
 cover: ./youtropolis/cover.jpg
-coverCaption: "YouTropolis, rendering (placeholder)"
+coverCaption: "YouTropolis, rendering"
 summary: "An interactive media artwork that maps Korean YouTube channels onto Korean administrative districts by subscriber and population rank, so visitors can fly over the platform as if it were a physical city."
 featured: true
 ---

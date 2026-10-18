@@ -23,5 +23,3 @@ The pipeline reduced a labeling process estimated at one month to two days. I al
 The project is ongoing. One line of work compares how consistently different language models score the same job across repeated runs, and how their score distributions differ.
 
 ![Distribution of automation-exposure scores by model: ChatGPT (mean 0.320), Claude (0.287) and Gemini (0.352).](./ai-exposure-pipeline/fig-1.png)
-
-*Placeholder text — to be revised by the author.*

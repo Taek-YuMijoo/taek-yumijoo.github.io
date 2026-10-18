@@ -14,7 +14,7 @@ featured: true
 
 Liquid Crystal Friendship was selected through the 2023 Seoripul Youth Art Gallery visual arts exhibition-planning open call organized by the Seocho Foundation for Arts and Culture. The award provided the exhibition space and funding, and I planned and ran the exhibition as curator, also taking part as an artist.
 
-![Installation view (placeholder)](./liquid-crystal-friendship/view-1.jpg)
+![Installation view](./liquid-crystal-friendship/view-1.jpg)
 
 
 ![Installation view: AI-generated image grid and works on the wall.](./liquid-crystal-friendship/view-2.jpg)

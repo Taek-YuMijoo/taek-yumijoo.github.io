@@ -8,7 +8,7 @@ venue: "Bokdo Gallery, Korea National University of Arts"
 location: "Seoul"
 collaborators: ["Team √"]
 cover: ./binary-garden/cover.jpg
-coverCaption: "Binary Garden, installation view (placeholder)"
+coverCaption: "Binary Garden, installation view"
 summary: "A garden placed inside a gallery alongside the physical infrastructure of digital media, to show that what is called virtual, from data centers to crypto mining, is firmly real."
 featured: false
 ---
