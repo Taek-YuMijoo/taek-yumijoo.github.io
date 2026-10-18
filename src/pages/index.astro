@@ -1,0 +1,81 @@
+---
+import Base from '../layouts/Base.astro';
+import { getAllWork, sectionByKey, sections, href, year } from '../lib/site';
+
+const all = await getAllWork();
+const years = all.map((w) => w.entry.data.date.getFullYear());
+const span = `${Math.min(...years)}–${Math.max(...years)}`;
+---
+
+<Base>
+  <header class="page-head">
+    <h1>Index</h1>
+    <p class="intro">{all.length} entries, {span}. Research, exhibitions and published criticism in one list, newest first.</p>
+  </header>
+
+  <div class="filters" role="group" aria-label="Filter by practice">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    {sections.map((s) => (
+      <button type="button" data-filter={s.key} aria-pressed="false">{s.label}</button>
+    ))}
+  </div>
+
+  <table class="ledger">
+    <thead>
+      <tr>
+        <th class="y">Year</th>
+        <th class="t">Title</th>
+        <th class="s">Practice</th>
+        <th class="k">Type</th>
+        <th class="v">Venue</th>
+      </tr>
+    </thead>
+    <tbody>
+      {all.map(({ section, entry }, i) => {
+        const d = entry.data;
+        const y = year(d.date);
+        const prev = i > 0 ? year(all[i - 1].entry.data.date) : null;
+        return (
+          <tr data-section={section}>
+            <td class="y">{y !== prev ? y : ''}</td>
+            <td class="t">
+              <a href={href(`/${section}/${entry.id}/`)}>{d.title}</a>
+              {d.titleKo && <span class="ko">{d.titleKo}</span>}
+            </td>
+            <td class="s">{sectionByKey[section].label}</td>
+            <td class="k">{d.type}</td>
+            <td class="v">{d.venue}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Base>
+
+<script>
+  // Progressive filter: without JS the full index is shown.
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filters button');
+  const rows = document.querySelectorAll<HTMLTableRowElement>('.ledger tbody tr');
+  const yearCells = Array.from(rows).map((r) => r.querySelector('.y') as HTMLTableCellElement);
+  const years = yearCells.map((c, i) => c.textContent || yearCells[i - 1]?.dataset.y || '');
+  yearCells.forEach((c, i) => {
+    if (!c.textContent) years[i] = years[i - 1];
+    c.dataset.y = years[i];
+  });
+
+  function apply(filter: string) {
+    let lastYear = '';
+    rows.forEach((row, i) => {
+      const show = filter === 'all' || row.dataset.section === filter;
+      row.hidden = !show;
+      if (show) {
+        const y = years[i];
+        yearCells[i].textContent = y !== lastYear ? y : '';
+        lastYear = y;
+      }
+    });
+    buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.filter === filter)));
+  }
+
+  buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.filter || 'all')));
+</script>

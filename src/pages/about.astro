@@ -1,0 +1,108 @@
+---
+import Base from '../layouts/Base.astro';
+import { site, href } from '../lib/site';
+
+// Edit this page directly to update the CV. Each `rows` item is [when, what, sub?].
+type Row = [string, string, string?];
+
+const education: Row[] = [
+  ['Feb 2026', 'KAIST — M.S., Digital Humanities and Computational Social Sciences, Data Science minor', 'Track: Computational Social Sciences. Advisor: Prof. Lanu Kim. Thesis: The Power of Entry Pathways: A Study of Professional Comparison Discourse in a Korean Online Community.'],
+  ['Feb 2023', 'Korea National University of Arts — B.F.A., Art Theory, Cinema Studies minor', 'Coursework: Creative Thinking with Coding; New Media Art; From Cinema to New Media.'],
+  ['2019', 'Beaux-Arts de Paris — exchange programme'],
+];
+
+const research: Row[] = [
+  ['May – Oct 2026', 'Researcher, Korea Information Society Development Institute (KISDI)', 'AI Transition and Global Structural Change. Supervisor: Dr. Aram Moon.'],
+  ['Feb 2024 – Feb 2026', 'Research Assistant, Computational Analysis of Technology and Society Lab, KAIST', 'Supervisor: Prof. Lanu Kim.'],
+  ['Apr – Nov 2025', 'Research Assistant, Korea Press Foundation', 'AI Use and Inequality: Focus on AI Literacy. Supervisor: Dr. Soeun Yang.'],
+  ['Jul – Oct 2024', 'Research Assistant, KISDI', 'AI Skill Demand Analysis Using a Skill Value Chain Framework. Supervisors: Dr. Hyunkyung Lee, Prof. Byungjun Kim.'],
+  ['Sep – Oct 2026', 'AI Researcher, Biove', 'AI architecture for a media art work shown at Anthropic Research Salon Seoul, Centre Pompidou Hanwha.'],
+];
+
+const awards: Row[] = [
+  ['Nov 2024', 'Third Place (Team Korea), Singapore AI Safety Red Teaming Challenge, IMDA', 'Selected to represent South Korea.'],
+  ['Sep 2025', 'Excellent Teaching Assistant Award, KAIST'],
+  ['Jul 2025', 'Outstanding Poster Presentation Award, 14th Korea Internet Governance Forum'],
+  ['Sep 2024', 'KAIST Museum media-art open call, selected'],
+  ['2024', 'Art in Culture emerging critic support programme, pitch selected'],
+  ['Aug 2023', '3rd Bupyeong Emerging Curator open call, selected'],
+  ['Nov 2022', 'Seoripul Youth Art Gallery exhibition open call (Seocho Foundation for Arts and Culture), selected'],
+  ['Feb 2022', 'Bokdo Gallery exhibition open call, selected'],
+  ['2021', 'First prize, photography and review, GKL × Gwangju Biennale'],
+  ['2024 – 2025', 'Support Scholarship, KAIST'],
+  ['2016 – 2018', 'Academic Performance Scholarships (four semesters), Korea National University of Arts'],
+];
+
+const publications: Row[] = [
+  ['2024', 'Kim, L., Jeon, J., Kim, T., Han, M., Park, D., Lim, Y., & Jung, K. Advances in Artificial Intelligence and the Changing Meaning of Work in the Future (Digital Transformation Megatrends Research IV). KISDI. In Korean.'],
+  ['2025', 'Lim, Y., & Choi, J. “An Analysis of the Ambivalence within ‘Equalism’ Discourse.” Poster, 14th Korea Internet Governance Forum, Seoul. In Korean.'],
+  ['2025', 'Lim, Y. “For Invisible Data.” Invited talk, seminar of the Daejeon Science Art Biennale, Daejeon. In Korean.'],
+];
+
+const teaching: Row[] = [
+  ['Spring 2025', 'Teaching Assistant, HSS.50100 Artificial Intelligence and Critical Theory, KAIST', 'Redesigned the student presentation format; Excellent Teaching Assistant Award.'],
+  ['Spring 2024', 'Teaching Assistant, HSS.20130 Science, Technology and Society, KAIST', 'Guest lecture, classroom Q&A, grading.'],
+  ['Spring 2025', 'Department Student Representative, KAIST', 'KAIST Scholarship for Student Union Leaders.'],
+];
+
+const skills: Row[] = [
+  ['Methods', 'Machine learning; natural language processing; social network analysis; LLMs and RAG; computational text analysis (topic modeling, text embeddings); Bayesian modeling; qualitative interviewing'],
+  ['Programming', 'Python, R, SQL'],
+  ['Software', 'Photoshop, Lightroom, InDesign'],
+  ['Languages', 'Korean (native), English (advanced, IELTS 7.5), Japanese (advanced), French (intermediate, DELF B1)'],
+];
+
+const groups: [string, Row[]][] = [
+  ['Education', education],
+  ['Research experience', research],
+  ['Awards and selections', awards],
+  ['Publications and presentations', publications],
+  ['Teaching and service', teaching],
+  ['Skills', skills],
+];
+---
+
+<Base title="About" description={`About ${site.name}: biography and CV.`}>
+  <header class="page-head">
+    <h1>About<span class="ko">소개</span></h1>
+    <p class="intro">
+      <a href={`mailto:${site.email}`}>{site.email}</a><br />
+      {site.city}<br />
+      <a class="download" href={href('/Yeongtaek_Lim_CV.pdf')}>Download CV (PDF)</a>
+    </p>
+  </header>
+
+  <div class="cv">
+    <div class="bio">
+      <p>
+        Yeongtaek Lim is a computational social scientist, curator and critic based in Seoul. He holds an M.S. in
+        Digital Humanities and Computational Social Sciences from KAIST and a B.F.A. in Art Theory from the Korea
+        National University of Arts. His research uses text analysis, network analysis and language-model pipelines to
+        study online conflict, occupational discourse and the social effects of generative AI. Since 2022 he has curated
+        four exhibitions selected through open calls, and he writes art criticism in Korean for Art in Culture, PONG,
+        Critic-al and Karts News.
+      </p>
+      <p class="ko">
+        임영택은 서울을 기반으로 활동하는 계산사회과학 연구자이자 전시기획자, 비평가다. KAIST 디지털인문사회과학부에서
+        석사학위를, 한국예술종합학교 미술이론과에서 학사학위를 받았다. <em>(소개 문구는 추후 수정 예정.)</em>
+      </p>
+    </div>
+
+    {groups.map(([heading, rows]) => (
+      <section>
+        <h2>{heading}</h2>
+        <div>
+          {rows.map(([when, what, sub]) => (
+            <div class="row">
+              <div class="when">{when}</div>
+              <div class="what">
+                <div>{what}</div>
+                {sub && <div class="sub">{sub}</div>}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

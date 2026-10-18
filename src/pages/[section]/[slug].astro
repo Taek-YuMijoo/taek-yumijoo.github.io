@@ -1,0 +1,96 @@
+---
+import { render } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import { sections, getSection, href, type SectionKey, type Work } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const s of sections) {
+    const items = await getSection(s.key);
+    items.forEach((entry, i) => {
+      paths.push({
+        params: { section: s.key, slug: entry.id },
+        props: { section: s, entry, prev: items[i - 1] ?? null, next: items[i + 1] ?? null },
+      });
+    });
+  }
+  return paths;
+}
+
+interface Props {
+  section: (typeof sections)[number];
+  entry: Work;
+  prev: Work | null;
+  next: Work | null;
+}
+const { section, entry, prev, next } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+const key = section.key as SectionKey;
+---
+
+<Base title={d.title} description={d.summary}>
+  <header class="detail-head">
+    <div>
+      <p class="intro" style="font-size: var(--fs-s); color: var(--ink-2); margin-bottom: .75rem;">
+        <a href={href(`/${key}/`)}>{section.label}</a>
+      </p>
+      <h1>
+        {d.title}
+        {d.titleKo && <span class="ko">{d.titleKo}</span>}
+      </h1>
+      <p class="lede">{d.summary}</p>
+    </div>
+    <dl class="meta-list">
+      <dt>Category</dt><dd>{d.type}</dd>
+      <dt>Position</dt><dd>{d.role}</dd>
+      <dt>Date</dt><dd>{d.dateLabel}</dd>
+      {d.venue && <><dt>Place</dt><dd>{d.venue}{d.location ? `, ${d.location}` : ''}</dd></>}
+      {d.collaborators.length > 0 && <><dt>With</dt><dd>{d.collaborators.join('; ')}</dd></>}
+      {d.links.length > 0 && (
+        <>
+          <dt>Links</dt>
+          <dd>
+            {d.links.map((l, i) => (
+              <>
+                {i > 0 && <br />}
+                <a href={l.url} rel="noopener">{l.label}</a>
+              </>
+            ))}
+          </dd>
+        </>
+      )}
+    </dl>
+  </header>
+
+  {d.cover && (
+    <figure class="figure">
+      <Image src={d.cover} alt={d.coverCaption ?? d.title} width={1600} format="webp" />
+      {d.coverCaption && <figcaption>{d.coverCaption}</figcaption>}
+    </figure>
+  )}
+
+  <div class="prose">
+    <Content />
+  </div>
+
+  <nav class="pager" aria-label="Within this section">
+    <div>
+      {prev && (
+        <a href={href(`/${key}/${prev.id}/`)}>
+          <span>Newer</span>
+          {prev.data.title}
+        </a>
+      )}
+    </div>
+    <div class="next">
+      {next && (
+        <a href={href(`/${key}/${next.id}/`)}>
+          <span>Older</span>
+          {next.data.title}
+        </a>
+      )}
+    </div>
+  </nav>
+</Base>
