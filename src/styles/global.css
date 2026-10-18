@@ -670,3 +670,8 @@ hr {
     display: block;
   }
 }
+
+/* entries without an image give the text the full width */
+.entry:not(:has(.thumb)) {
+  grid-template-columns: 10rem minmax(0, 1fr);
+}
