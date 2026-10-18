@@ -24,7 +24,7 @@ export const sections: {
     label: 'Research',
     labelKo: '연구',
     intro:
-      'Computational social science on online conflict, occupational discourse and the social impacts of generative AI. Text analysis, network analysis, LLM pipelines and interviews, mostly on Korean data.',
+      'Computational social science on online conflict, occupational discourse and the social impacts of generative AI. Text analysis, network analysis, LLM pipelines and interviews.',
   },
   {
     key: 'curatorial',
