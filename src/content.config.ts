@@ -18,6 +18,7 @@ const workSchema = ({ image }: { image: () => z.ZodTypeAny }) =>
     coverCaption: z.string().optional(),
     summary: z.string(),         // one or two sentences for lists
     featured: z.boolean().default(false),
+    pinned: z.boolean().default(false),   // pinned entries sort first within their section and the index
     draft: z.boolean().default(false),
   });
 

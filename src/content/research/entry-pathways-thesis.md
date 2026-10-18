@@ -10,11 +10,12 @@ collaborators:
   - "Prof. Lanu Kim (advisor)"
 links:
   - label: "KAIST Library"
-    url: "#"
+    url: "https://library.kaist.ac.kr/search/detail/view.do?bibCtrlNo=1152543&flag=dissertation"
 summary: "5,547 posts from Blind that mention two or more of 18 Korean professions. Professions that share an entry pathway (degree or exam) are compared more often than their job content predicts, and in different settings."
 cover: ./entry-pathways-thesis/cover.jpg
 coverCaption: "Network of comparisons between 18 professions on Blind. Green: school-based, orange: test-based. An edge links two professions when the conditional probability of co-mention is at least 0.4."
 featured: true
+pinned: true
 ---
 
 The thesis asks whether the way a person enters a profession shapes how that profession is talked about. In Korea, some professions require a specific degree (doctors, lawyers, dentists), while others can be reached through a qualifying exam alone (accountants, tax accountants, labor attorneys). The thesis calls these school-based and test-based professions. It poses three questions: whether the two pathways differ in the emotions their members express online (RQ1), whether they differ in how often professions are compared with each other (RQ2), and whether they differ in the settings where comparison happens (RQ3).

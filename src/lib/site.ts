@@ -50,7 +50,8 @@ export const sectionByKey = Object.fromEntries(sections.map((s) => [s.key, s])) 
 export type Work = CollectionEntry<SectionKey>;
 export type WorkWithSection = { section: SectionKey; entry: Work };
 
-const byDateDesc = (a: Work, b: Work) => b.data.date.getTime() - a.data.date.getTime();
+const byDateDesc = (a: Work, b: Work) =>
+  Number(b.data.pinned) - Number(a.data.pinned) || b.data.date.getTime() - a.data.date.getTime();
 
 export async function getSection(key: SectionKey): Promise<Work[]> {
   const items = await getCollection(key, ({ data }) => !data.draft);

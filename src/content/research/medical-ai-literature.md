@@ -9,8 +9,6 @@ location: "Daejeon"
 links:
   - label: "KISDI report (Kim et al., 2024)"
     url: "https://library.kisdi.re.kr/$/10230/contents/3934580"
-cover: ./medical-ai-literature/cover.jpg
-coverCaption: "Figure from the KISDI report chapter (2024): medical AI papers per publication year, 2010–2024."
 summary: "Topic modeling and temporal analysis of 31,804 English-language medical AI papers (2010–2024) from OpenAlex, showing a move from disease-specific studies toward imaging and IoT applications."
 featured: true
 ---
