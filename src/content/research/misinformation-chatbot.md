@@ -1,5 +1,5 @@
 ---
-title: "A Misinformation Chatbot as Experimental Stimulus"
+title: "Meta4AI: A Chatbot with Planted Errors for Observing AI Literacy"
 type: "Observational study"
 role: "Research Assistant"
 date: 2025-11-01
