@@ -8,7 +8,7 @@ venue: "Gallery Kkotnuri, Bupyeong Art Center"
 location: "Incheon"
 collaborators: ["Cha Minyoung (choreographer)", "Choi Kyungwon (artist)"]
 cover: ./blues-blues/cover.jpg
-coverCaption: "Blue's Blues, performance by choreographer Cha Minyoung among Choi Kyungwon's textile works, Gallery Kkotnuri, 2023."
+coverCaption: "Blue's Blues, performance view, Gallery Kkotnuri, 2023."
 summary: "A collaboration between a choreographer and a visual artist that layers the blue of the sea over the blue of denim to make the ecological cost of fast fashion felt through the body."
 featured: true
 ---
@@ -30,5 +30,3 @@ Completed through the collaboration of choreographer Cha Minyoung and artist Cho
 ## 기획의 글
 
 우리는 블루에 주목한다. 생명력 넘치는 바다의 색 블루, 노동자의 작업복인 동시에, 소비자본주의 시대의 대표적 패션 아이템인 청바지의 블루, 그리고 불안과 멜랑콜리를 그려내는 블루에 주목한다. 블루는 청아하게 빛나는 동시에 우울을 상징하는 색이며, 바다를 대표하는 색인 동시에 의복 염료 중 가장 큰 생태계 문제를 야기하는 인디고 염료의 색이기도 하다. 우리는 바다의 파랑과 현대패션 아이콘인 청바지의 파랑을 중첩시켜 색채의 아이러니를 만들어내는 전략이, 패스트 패션의 해양 생태계 문제를 가시화하는 가장 효과적인 미술적 방법이라는 판단 하에, 본 전시의 이름을, 파랑을 두 번 새겨넣은 이름, Blue's Blues로 짓는다. 안무가 차민영과 미술 작가 최경원의 협업을 통해 완성되는 전시 《Blue's Blues》는 움직이는 몸과 멈춰 있는 몸, 몸의 외피와 내부, 몸의 미래와 자취가 만들어내는 파장을 통해, 의복 문화가 야기하는 생태계 문제를 관람자의 피부로 전달한다.
-
-*Placeholder images and text — to be revised by the author.*
