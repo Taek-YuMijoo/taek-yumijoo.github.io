@@ -267,6 +267,11 @@ hr {
   font-variant-numeric: tabular-nums;
 }
 
+.ledger .t {
+  min-width: 14rem;
+  overflow-wrap: normal;
+}
+
 .ledger .t a {
   color: var(--ink);
 }
@@ -574,6 +579,12 @@ hr {
 }
 
 /* ---------- responsive ---------- */
+@media (max-width: 1100px) {
+  .ledger .v {
+    display: none;
+  }
+}
+
 @media (max-width: 860px) {
   .site {
     grid-template-columns: 1fr;
