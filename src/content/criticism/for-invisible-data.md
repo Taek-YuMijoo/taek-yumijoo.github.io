@@ -11,6 +11,6 @@ summary: "Invited critic's talk at the academic seminar of the Daejeon Science A
 featured: true
 ---
 
-The author was invited as a critic to speak at the seminar associated with the Daejeon Science Art Biennale, held at the Daejeon Museum of Art in July 2025. The talk was given in Korean.
+I was invited as a critic to speak at the seminar of the Daejeon Science Art Biennale, held at the Daejeon Museum of Art in July 2025. I gave the talk in Korean.
 
-The talk sits at the intersection of the author's computational research and art criticism. Its subject is data that is not seen, and it touches on platforms and labor.
+The talk draws on both my computational research and my art criticism. Its subject is data that goes unseen, and it touches on platforms and labor.

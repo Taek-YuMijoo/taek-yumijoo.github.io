@@ -5,7 +5,7 @@ export const site = {
   email: 'yeongtaek1337@gmail.com',
   city: 'Seoul',
   statement:
-    'Computational social scientist, curator and critic. I study how platforms, data and work reorganise social life — in research, in exhibitions, and in writing.',
+    'Computational social scientist, curator and critic. I study how platforms, data and work reorganise social life, and I take the same questions into exhibitions and criticism.',
   updated: 'Oct 2026',
 };
 
@@ -26,7 +26,7 @@ export const sections: {
     key: 'curatorial',
     label: 'Curatorial',
     intro:
-      'Four exhibitions since 2022, each selected through an open call. They take the material basis of the digital — servers, dyes, population data, platform metrics — and put it in a room.',
+      'Four exhibitions since 2022, each selected through an open call. They put the material basis of the digital in a room: servers, dyes, population data and platform metrics.',
   },
   {
     key: 'criticism',

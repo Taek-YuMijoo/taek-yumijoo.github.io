@@ -14,7 +14,7 @@ coverCaption: "Task screen for the sunscreen task in the observational study, wi
 featured: true
 ---
 
-The Korea Press Foundation report "Gaps in generative AI use and AI literacy" asks how differences in generative AI use relate to AI literacy. Its fifth chapter, the part this entry covers, does not rely on self-reports. It observes what adults do with a chatbot when the chatbot is wrong. Four abilities were assessed: use (can the person solve the task with AI), evaluation (can the person spot the AI's errors and bias), communication (how the person prompts) and collaboration (whether the person works with the AI to develop and improve the result).
+The Korea Press Foundation report "Gaps in generative AI use and AI literacy" asks how differences in generative AI use relate to AI literacy. Its fifth chapter observes what adults do with a chatbot when the chatbot is wrong, instead of relying on self-reports. Four abilities were assessed: use (can the person solve the task with AI), evaluation (can the person spot the AI's errors and bias), communication (how the person prompts) and collaboration (whether the person works with the AI to develop and improve the result).
 
 The report calls the design an observational survey, not an experiment: every participant did the same three tasks, with no control condition. The chatbot is the stimulus. Self-reported AI literacy can differ from what people do, so the study gave participants a tool that was set to make specific mistakes and recorded whether they noticed. Evaluation ability is scored from those mistakes.
 
@@ -38,7 +38,7 @@ Use was near ceiling and evaluation was low. In the sunscreen task, 94.8% scored
 
 ![Use and evaluation scores, column-writing task (Figure 5-11 of the report).](./misinformation-chatbot/fig-5.jpg)
 
-I built the chatbot and its task-specific system prompts, ran the deployment to the panel participants, and managed the resulting data. The report itself does not list individual contributors, so this description of my role comes from my own account. The study was supervised by Dr. Soeun Yang. I read the chapter for the design and for the figures quoted here; the group comparisons in its later pages are not summarised.
+I built the chatbot and its task-specific system prompts, ran the deployment to the panel participants, and managed the resulting data. The report itself does not list individual contributors, so this description of my role comes from my own account. The study was supervised by Dr. Soeun Yang. The group comparisons in the chapter's later pages are not summarised here.
 
 ## Source
 

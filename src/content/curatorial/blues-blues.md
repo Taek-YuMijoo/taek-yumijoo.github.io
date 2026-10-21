@@ -13,7 +13,7 @@ summary: "A collaboration between a choreographer and a visual artist that layer
 featured: true
 ---
 
-Blue's Blues was selected through the 3rd Bupyeong Emerging Curator open call organized by the Bupyeong-gu Foundation for Culture, with support worth approximately 25 million KRW. I planned and ran the exhibition as its overall curator, in collaboration between choreographer Cha Minyoung and artist Choi Kyungwon.
+Blue's Blues was selected through the 3rd Bupyeong Emerging Curator open call organized by the Bupyeong-gu Foundation for Culture, with support worth approximately 25 million KRW. I planned and ran the exhibition as its overall curator. The work was a collaboration between choreographer Cha Minyoung and artist Choi Kyungwon.
 
 ![Installation view: suspended dyed fabrics and yarn, with soft sculptures on the floor.](./blues-blues/view-1.jpg)
 

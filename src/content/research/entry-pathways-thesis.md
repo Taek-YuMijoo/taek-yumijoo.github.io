@@ -44,7 +44,7 @@ In the network, school-based and test-based professions form separate clusters. 
 
 The thesis contributes to the sociology of professions by showing differences inside the group of elite professions that earlier work treated as uniform, and to social comparison research by showing that shared institutional background, not only ability, structures who is compared with whom. It also uses online community data and computational methods (sentiment classification, text similarity, networks) in place of surveys or interviews, and argues that regulation should take entry pathway into account.
 
-The limits are stated in the thesis. Results come from online discourse and may not hold offline. Search by occupation keywords naturally favors career-related posts. The strong doctor–lawyer coupling is left unexplained, and the thesis names its explanation as a topic for future work.
+The limits are stated in the thesis. Results come from online discourse and may not hold offline. Search by occupation keywords naturally favors career-related posts. The strong doctor-lawyer coupling is left unexplained, and the thesis names its explanation as a topic for future work.
 
 ## Source
 

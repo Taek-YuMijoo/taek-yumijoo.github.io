@@ -8,11 +8,11 @@ venue: "Seoripul Gallery (Seocho Foundation for Arts and Culture)"
 location: "Seoul"
 cover: ./liquid-crystal-friendship/cover.jpg
 coverCaption: "Liquid Crystal Friendship, installation view, Seoripul Gallery, 2023."
-summary: "An exhibition that sets aside the optimist-versus-pessimist divide over AI and looks at artists' reactions to AI-generated aesthetic objects, treating AI as a new colleague."
+summary: "An exhibition that treats AI as a new colleague. It sets aside the optimist-versus-pessimist divide over AI and looks at how artists react to aesthetic objects made by AI."
 featured: true
 ---
 
-Liquid Crystal Friendship was selected through the 2023 Seoripul Youth Art Gallery visual arts exhibition-planning open call organized by the Seocho Foundation for Arts and Culture. The award provided the exhibition space and funding, and I planned and ran the exhibition as curator, also taking part as an artist.
+Liquid Crystal Friendship was selected through the 2023 Seoripul Youth Art Gallery visual arts exhibition-planning open call organized by the Seocho Foundation for Arts and Culture. The award provided the exhibition space and funding, and I planned and ran the exhibition as curator and also took part as an artist.
 
 ![Installation view](./liquid-crystal-friendship/view-1.jpg)
 

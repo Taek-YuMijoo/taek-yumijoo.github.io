@@ -12,7 +12,7 @@ summary: "An interactive media artwork that maps Korean YouTube channels onto Ko
 featured: true
 ---
 
-YouTropolis was realized through the media-artwork content open call hosted by KAIST Museum, which the project won; the exhibition was developed and presented on that basis. The working title in the original portfolio was provisional.
+YouTropolis won the media-artwork content open call hosted by KAIST Museum, and the exhibition was developed and presented on the basis of that award. The working title in the original portfolio was provisional.
 
 ## Curatorial statement
 

@@ -11,4 +11,4 @@ coverCaption: "Published page"
 summary: "Review of artist Goyoson's solo exhibition, commissioned and published by the webzine PONG."
 ---
 
-This review of the solo exhibition of the artist Goyoson was commissioned by the webzine PONG and published there. The author contributed the text and also worked as photographer.
+The webzine PONG commissioned and published this review of the artist Goyoson's solo exhibition. I wrote the text and also worked as photographer.

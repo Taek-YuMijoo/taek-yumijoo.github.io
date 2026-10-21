@@ -13,4 +13,4 @@ summary: "A series of 14 food-culture criticism columns for the Korea National U
 featured: true
 ---
 
-A column series on food culture, written for Karts News, the newspaper of the Korea National University of Arts. The author was selected through the paper's call for external contributors in the first semester of 2022 and wrote seven columns of food-culture criticism. The series was extended into the second semester because of its popularity, for a total of 14 columns. The author also worked as photographer for the series.
+A column series on food culture for Karts News, the newspaper of the Korea National University of Arts. I was selected through the paper's call for external contributors in the first semester of 2022 and wrote seven columns of food-culture criticism. The series was extended into the second semester because of its popularity, for a total of 14 columns. I also worked as photographer for the series.
