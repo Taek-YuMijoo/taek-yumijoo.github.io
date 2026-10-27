@@ -712,3 +712,13 @@ hr {
 .embed-link a {
   color: var(--accent);
 }
+
+/* Keep years and practice names whole on narrow screens. */
+.ledger .y,
+.ledger .s {
+  overflow-wrap: normal;
+}
+
+.ledger .y {
+  white-space: nowrap;
+}
