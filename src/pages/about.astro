@@ -3,11 +3,16 @@ import Base from '../layouts/Base.astro';
 import { site, href } from '../lib/site';
 
 // Edit this page directly to update the CV. Each `rows` item is [when, what, sub?].
-type Row = [string, string, string?];
+// `sub` is one line, or a list of lines shown one under another.
+type Row = [string, string, (string | string[])?];
 
 const education: Row[] = [
-  ['Feb 2026', 'KAIST: M.S., Digital Humanities and Computational Social Sciences, Data Science minor', 'Track: Computational Social Sciences. Advisor: Prof. Lanu Kim. Thesis: The Power of Entry Pathways: A Study of Professional Comparison Discourse in a Korean Online Community.'],
-  ['Feb 2023', 'Korea National University of Arts: B.F.A., Art Theory, Cinema Studies minor', 'Coursework: Creative Thinking with Coding; New Media Art; From Cinema to New Media.'],
+  ['Feb 2026', 'KAIST: M.S., Digital Humanities and Computational Social Sciences, Data Science minor', [
+    'Track: Computational Social Sciences',
+    'Advisor: Prof. Lanu Kim',
+    'Thesis: The Power of Entry Pathways: A Study of Professional Comparison Discourse in a Korean Online Community',
+  ]],
+  ['Feb 2023', 'Korea National University of Arts: B.F.A., Art Theory, Cinema Studies minor'],
   ['2019', 'Beaux-Arts de Paris: exchange programme'],
 ];
 
@@ -75,12 +80,11 @@ const groups: [string, Row[]][] = [
   <div class="cv">
     <div class="bio">
       <p>
-        Yeongtaek Lim is a computational social scientist, curator and critic based in Seoul. He holds an M.S. in
-        Digital Humanities and Computational Social Sciences from KAIST and a B.F.A. in Art Theory from the Korea
-        National University of Arts. His research uses text analysis, network analysis and language-model pipelines to
-        study online conflict, occupational discourse and the social effects of generative AI. Since 2022 he has curated
-        four exhibitions selected through open calls, and he writes art criticism in Korean for Art in Culture, PONG,
-        Critic-al and Karts News.
+        Yeongtaek Lim is a computational social scientist, curator and critic based in Seoul. His research and
+        artistic practices use text analysis, network analysis and language-model pipelines to study online conflict,
+        occupational discourse and the social effects of generative AI. He holds an M.S. in Digital Humanities and
+        Computational Social Sciences from KAIST and a B.F.A. in Art Theory from the Korea National University of
+        Arts.
       </p>
     </div>
 
@@ -93,7 +97,7 @@ const groups: [string, Row[]][] = [
               <div class="when">{when}</div>
               <div class="what">
                 <div>{what}</div>
-                {sub && <div class="sub">{sub}</div>}
+                {sub && (Array.isArray(sub) ? sub : [sub]).map((line) => <div class="sub">{line}</div>)}
               </div>
             </div>
           ))}
