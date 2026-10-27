@@ -29,6 +29,6 @@ const mk = (name: string) =>
 
 export const collections = {
   research: mk('research'),
-  curatorial: mk('curatorial'),
+  exhibitions: mk('exhibitions'),
   criticism: mk('criticism'),
 };

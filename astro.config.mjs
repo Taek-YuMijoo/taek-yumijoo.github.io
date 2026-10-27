@@ -8,4 +8,13 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   build: { format: 'directory' },
+  // Old addresses from before the Curatorial section was renamed.
+  redirects: {
+    '/curatorial/': '/exhibitions/',
+    '/curatorial/binary-garden/': '/exhibitions/binary-garden/',
+    '/curatorial/blues-blues/': '/exhibitions/blues-blues/',
+    '/curatorial/liquid-crystal-friendship/': '/exhibitions/liquid-crystal-friendship/',
+    '/curatorial/youtropolis/': '/exhibitions/youtropolis/',
+    '/research/biove-media-art-ai/': '/exhibitions/biove-media-art-ai/',
+  },
 });

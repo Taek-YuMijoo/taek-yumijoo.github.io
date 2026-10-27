@@ -9,7 +9,7 @@ export const site = {
   updated: 'Oct 2026',
 };
 
-export type SectionKey = 'research' | 'curatorial' | 'criticism';
+export type SectionKey = 'research' | 'exhibitions' | 'criticism';
 
 export const sections: {
   key: SectionKey;
@@ -23,10 +23,10 @@ export const sections: {
       'Computational social science on online conflict, occupational discourse and the social impacts of generative AI. Text analysis, network analysis, LLM pipelines and interviews.',
   },
   {
-    key: 'curatorial',
-    label: 'Curatorial',
+    key: 'exhibitions',
+    label: 'Exhibitions',
     intro:
-      'Four exhibitions since 2022, each selected through an open call. They put the material basis of the digital in a room: servers, dyes, population data and platform metrics.',
+      'Exhibitions I curated since 2022, each selected through an open call, and a work I joined as AI researcher. The shows put the material basis of the digital in a room: servers, dyes, population data and platform metrics.',
   },
   {
     key: 'criticism',

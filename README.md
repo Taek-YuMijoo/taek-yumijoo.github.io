@@ -1,6 +1,6 @@
 # Yeongtaek Lim — portfolio site
 
-Static site built with [Astro](https://astro.build). Three practices — Research, Curatorial, Criticism — plus an About/CV page.
+Static site built with [Astro](https://astro.build). Three practices — Research, Exhibitions, Criticism — plus an About/CV page.
 
 ## Edit content
 
@@ -8,11 +8,11 @@ Each work is one Markdown file:
 
 ```
 src/content/research/<slug>.md
-src/content/curatorial/<slug>.md
+src/content/exhibitions/<slug>.md
 src/content/criticism/<slug>.md
 ```
 
-Images for a work go in a folder with the same name next to the file, e.g. `src/content/curatorial/blues-blues/cover.jpg`, and are referenced as `cover: ./blues-blues/cover.jpg` in the frontmatter or `![caption](./blues-blues/view-1.jpg)` in the body.
+Images for a work go in a folder with the same name next to the file, e.g. `src/content/exhibitions/blues-blues/cover.jpg`, and are referenced as `cover: ./blues-blues/cover.jpg` in the frontmatter or `![caption](./blues-blues/view-1.jpg)` in the body.
 
 Frontmatter fields (see `src/content.config.ts`):
 
