@@ -8,7 +8,7 @@ venue: "KAIST / KISDI"
 location: "Daejeon"
 links:
   - label: "KISDI report (Kim et al., 2024)"
-    url: "https://library.kisdi.re.kr/$/10230/contents/3934580"
+    url: "https://library.kisdi.re.kr/$/10230/contents/3934580?checkinId=3696917&articleId=1871617"
 summary: "Topic modeling and temporal analysis of 31,804 English-language medical AI papers (2010-2024) from OpenAlex. Over the period, the literature moves from disease-specific studies toward imaging and IoT applications."
 featured: true
 ---
@@ -37,4 +37,4 @@ I carried out the computational text and temporal analysis for the chapter as a 
 
 ## Source
 
-Kim, L., Jeon, J., Kim, T., Han, M., Park, D., Lim, Y., & Jung, K. (2024). Medical AI in South Korea and the expansion of medical labor. In *Advances in artificial intelligence and the changing meaning of work in the future* (Digital Transformation Megatrends Research IV, Chapter 4, pp. 1–184). Korea Information Society Development Institute (KISDI). In Korean. https://library.kisdi.re.kr/$/10230/contents/3934580
+Kim, L., Jeon, J., Kim, T., Han, M., Park, D., Lim, Y., & Jung, K. (2024). Medical AI in South Korea and the expansion of medical labor. In *Advances in artificial intelligence and the changing meaning of work in the future* (Digital Transformation Megatrends Research IV, Chapter 4, pp. 1–184). Korea Information Society Development Institute (KISDI). In Korean. https://library.kisdi.re.kr/$/10230/contents/3934580?checkinId=3696917&articleId=1871617
