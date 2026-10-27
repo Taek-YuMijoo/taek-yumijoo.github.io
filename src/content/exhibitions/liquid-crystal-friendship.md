@@ -3,7 +3,7 @@ title: "Liquid Crystal Friendship"
 type: "Exhibition"
 role: "Curator and participating artist"
 date: 2023-04-26
-dateLabel: "26 Apr – 19 May 2023"
+dateLabel: "Apr – May 2023"
 venue: "Seoripul Gallery (Seocho Foundation for Arts and Culture)"
 location: "Seoul"
 cover: ./liquid-crystal-friendship/cover.jpg

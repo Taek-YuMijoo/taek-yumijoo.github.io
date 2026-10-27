@@ -17,7 +17,9 @@ const workSchema = ({ image }: { image: () => z.ZodTypeAny }) =>
     coverCaption: z.string().optional(),
     summary: z.string(),         // one or two sentences for lists
     featured: z.boolean().default(false),
-    pinned: z.boolean().default(false),   // pinned entries sort first within their section and the index
+    pinned: z.boolean().default(false),
+    order: z.number().optional(),          // manual position within its section (1 = first); overrides date order there
+    embed: z.string().url().optional(),    // https page shown in a frame on the detail page (the original text)   // pinned entries sort first within their section and the index
     draft: z.boolean().default(false),
   });
 

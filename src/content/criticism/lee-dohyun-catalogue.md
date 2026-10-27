@@ -9,6 +9,7 @@ links: []
 cover: ./lee-dohyun-catalogue/cover.jpg
 coverCaption: "Published page"
 summary: "Critical essay for the catalogue of artist Lee Dohyun's solo exhibition, written on commission from the artist."
+draft: true
 ---
 
 This essay was commissioned by the artist Lee Dohyun and published in the catalogue of his solo exhibition. I wrote the critical text and also worked as photographer.

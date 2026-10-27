@@ -3,7 +3,7 @@ title: "Blue's Blues"
 type: "Exhibition"
 role: "Curator"
 date: 2023-09-22
-dateLabel: "22 Sep – 29 Oct 2023"
+dateLabel: "Sep – Oct 2023"
 venue: "Gallery Kkotnuri, Bupyeong Art Center"
 location: "Incheon"
 collaborators: ["Cha Minyoung (choreographer)", "Choi Kyungwon (artist)"]

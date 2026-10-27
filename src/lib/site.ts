@@ -30,9 +30,9 @@ export const sections: {
   },
   {
     key: 'criticism',
-    label: 'Criticism',
+    label: 'Selected Criticism',
     intro:
-      'Art criticism and columns written in Korean for Art in Culture, PONG, Critic-al and Karts News, plus invited talks. English abstracts; original texts linked where available.',
+      'Selected art criticism, written in Korean. Each page shows the original text on its publisher\'s site, followed by a short English summary.',
   },
 ];
 
@@ -47,9 +47,13 @@ export type WorkWithSection = { section: SectionKey; entry: Work };
 const byDateDesc = (a: Work, b: Work) =>
   Number(b.data.pinned) - Number(a.data.pinned) || b.data.date.getTime() - a.data.date.getTime();
 
+// Within a section, a manual `order` wins; entries without one follow by date.
+const bySectionOrder = (a: Work, b: Work) =>
+  (a.data.order ?? Infinity) - (b.data.order ?? Infinity) || byDateDesc(a, b);
+
 export async function getSection(key: SectionKey): Promise<Work[]> {
   const items = await getCollection(key, ({ data }) => !data.draft);
-  return items.sort(byDateDesc);
+  return items.sort(bySectionOrder);
 }
 
 export async function getAllWork(): Promise<WorkWithSection[]> {

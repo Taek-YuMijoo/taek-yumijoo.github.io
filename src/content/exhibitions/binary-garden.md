@@ -3,7 +3,7 @@ title: "Binary Garden"
 type: "Exhibition"
 role: "Curator and artist (Team √)"
 date: 2022-05-09
-dateLabel: "9 – 14 May 2022"
+dateLabel: "May 2022"
 venue: "Bokdo Gallery, Korea National University of Arts"
 location: "Seoul"
 collaborators: ["Team √"]

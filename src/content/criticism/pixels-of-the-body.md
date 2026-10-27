@@ -11,6 +11,7 @@ cover: ./pixels-of-the-body/cover.jpg
 coverCaption: "Published page"
 summary: "Review of Song Yehwan's solo exhibition at G Gallery (8 Jan to 15 Feb 2025), published in the FOCUS section of Art in Culture, February 2025, p. 60."
 featured: true
+draft: true
 ---
 
 This review appeared in the FOCUS section of the art magazine Art in Culture (February 2025, p. 60). It addresses the solo exhibition of Song Yehwan (b. 1995) at G Gallery, which ran from 8 January to 15 February 2025. The works discussed include The Whirlpool (2025) and two other works from 2025.

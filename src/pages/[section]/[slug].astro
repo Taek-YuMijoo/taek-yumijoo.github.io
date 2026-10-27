@@ -63,7 +63,18 @@ const key = section.key as SectionKey;
     </dl>
   </header>
 
-  {d.cover && (
+  {d.embed && (
+    <>
+      <div class="embed">
+        <iframe src={d.embed} title={`${d.title}: original text`} loading="lazy"></iframe>
+      </div>
+      <p class="embed-link">
+        <a href={d.embed} target="_blank" rel="noopener">Open the original text in a new tab</a>
+      </p>
+    </>
+  )}
+
+  {!d.embed && d.cover && (
     <figure class="figure">
       <Image src={d.cover} alt={d.coverCaption ?? d.title} width={1600} format="webp" />
       {d.coverCaption && <figcaption>{d.coverCaption}</figcaption>}

@@ -686,3 +686,27 @@ hr {
 .entry:not(:has(.thumb)) {
   grid-template-columns: 10rem minmax(0, 1fr);
 }
+
+/* original text shown in a frame (criticism pages) */
+.embed {
+  margin: 1.5rem 0 0;
+  border: 1px solid var(--rule);
+  height: min(80vh, 56rem);
+  background: #fff;
+}
+
+.embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.embed-link {
+  font-size: var(--fs-s);
+  margin-top: 0.5rem;
+}
+
+.embed-link a {
+  color: var(--accent);
+}
