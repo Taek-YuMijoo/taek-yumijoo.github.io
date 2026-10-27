@@ -17,6 +17,6 @@ AS _____ AS POSSIBLE was the Hanwha × Anthropic Art Commission 2026 exhibition 
 
 ![The exhibition key visual for AS _____ AS POSSIBLE. Image: Centre Pompidou Hanwha.](./biove-media-art-ai/view-1.jpg)
 
-Inhwa Yeom is a media artist and engineering researcher whose work combines AI, XR, biotechnology, interactive systems and performance. Her work asks audiences to take part with their cognition, psychology and bodies, and builds devices and environments that act like stages for that experience. Her piece in the show, Chandra Chronicles: In Neuroverse (찬드라 연대기: 인 뉴로버스, 2025–26), is an XR installation made of AI-based interactive video, mobile AR, an assistive walker, crystal, resin and sound.
+Inhwa Yeom is a media artist and engineering researcher whose work combines AI, XR, biotechnology, interactive systems and performance. Her work asks audiences to take part with their cognition, psychology and bodies, and builds devices and environments that act like stages for that experience. Her piece in the show, Chandra Chronicles: In Neuroverse (2025–26), is an XR installation made of AI-based interactive video, mobile AR, an assistive walker, crystal, resin and sound.
 
 I took part as AI researcher through the studio Biove. I designed and implemented the AI architecture for the work.
